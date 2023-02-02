@@ -1,0 +1,8 @@
+#!/bin/sh 
+
+if [ -z $XDG_CURRENT_DESKTOP ]; then
+  export XDG_CURRENT_DESKTOP="i3:GNOME-Flashback:GNOME"
+fi
+
+exec gnome-session --systemd --session=gnome-flashback-i3 --disable-acceleration-check "$@"
+

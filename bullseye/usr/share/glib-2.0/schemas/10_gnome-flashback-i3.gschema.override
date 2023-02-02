@@ -1,0 +1,17 @@
+[org.gnome.gnome-flashback:i3]
+# disables desktop window spawned by gnome-flashback
+desktop = false
+# displays the wallpaper on the root window instead of desktop window
+root-background = true
+# use of gnome-flashback to manage notifications, set to "false" if you want to use another such as dunst
+notifications = true
+# use of gnome-flashback screensaver (lock), set to "false" if you want to use another such as i3lock
+screensaver = true
+
+[org.gnome.Terminal.Legacy.Settings:i3]
+# disables header bar for gnome-terminal
+headerbar = false
+
+[org.gnome.desktop.wm.preferences:i3]
+# shows only "close" button in the header bar
+button-layout = 'appmenu:close'
